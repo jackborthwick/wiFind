@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14A389a" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Hotspots" representedClassName="Hotspots" syncable="YES">
+        <attribute name="hotspotAddress" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hotspotLatitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hotspotLongitude" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hotspotName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hotspotType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Hotspots" positionX="-63" positionY="-18" width="128" height="120"/>
+    </elements>
 </model>
